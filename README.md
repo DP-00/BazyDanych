@@ -1,4 +1,4 @@
 # BazyDanych
 AGH - semestr 4
 
-zadanie znajduje sie na branchu "lab1"
+zadanie z zajęć * znajduje sie na branchu "lab*"
