@@ -1,0 +1,19 @@
+1. Zamówienia
+id_produktu -> nazwa_produktu, cena_produkcyjna, VAT
+nazwa_produktu -> cena_produkcji, VAT
+id_klienta -> nazwa_klienta, data_zamówienia, ilość, suma_brutto, suma_netto
+nazwa_klienta -> data_zamówienia, ilość, suma_brutto, suma_netto
+suma_brutto -> suma_netto, VAT
+
+Klucze kandydujące:
+id_produktu
+nazwa_produktu
+
+2. Pomieszczenia
+id_pomieszczenia -> numer_pomieszczenia, id_budynku, powierzchnia, liczba_okien, licza_drzwi, ulica, miasto, kod_pocztowy
+id_budynku -> ulica, miasto, kod_pocztowy
+kod_pocztowy -> miasto
+
+Klucze kandydujące:
+id_pomieszczenia
+numer_pomieszczenia+id_budynku
